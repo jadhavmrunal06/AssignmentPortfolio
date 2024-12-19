@@ -1,0 +1,57 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #444;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Add margin between sections */
+section {
+  margin-top: 50px;
+}
+
+section:first-child {
+  margin-top: 0;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Main container to avoid overlap with fixed navbar */
+body {
+  padding-top: 60px; /* Adjust based on navbar height */
+}
